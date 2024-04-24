@@ -20,7 +20,7 @@ public class FrogSimulation
 			d+=hopDistance();
 		/* to be implemented in part (a) */
 			if (d<0)
-				return false
+				return false;
 else if(goalDistance<=d)
 	return true;
 		}
