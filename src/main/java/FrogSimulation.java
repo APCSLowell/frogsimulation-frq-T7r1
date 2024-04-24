@@ -16,7 +16,7 @@ public class FrogSimulation
 	public boolean simulate()
 	{ 
 		int d=0;
-		for(int i;i<maxHops;i++)
+		for(int i=0;i<maxHops;i++)
 			d+=hopDistance();
 		/* to be implemented in part (a) */
 if(goalDistance>=d)
