@@ -32,7 +32,7 @@ if(goalDistance>=d)
 			if(simulate()==true)
 				a++;
 			else
-				b++
+				b++;
 					}
 		return a/b;
 	}
