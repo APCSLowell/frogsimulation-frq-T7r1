@@ -38,7 +38,7 @@ else if(goalDistance<=d)
 			else
 				b++;
 					}
-		return a/b;
+		return (double)a/b;
 	}
 	
 	
