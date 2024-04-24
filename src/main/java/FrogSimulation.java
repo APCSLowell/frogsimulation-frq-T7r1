@@ -19,7 +19,7 @@ public class FrogSimulation
 		for(int i=0;i<maxHops;i++){
 			d+=hopDistance();
 		/* to be implemented in part (a) */
-if(goalDistance>=d)
+if(goalDistance>=d&&goalDistance>=0)
 	return true;
 		}
 	return false;
