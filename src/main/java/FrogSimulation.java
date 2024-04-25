@@ -35,10 +35,9 @@ else if(goalDistance<=d)
 		for(int i=0;i<num;i++){
 			if(simulate()==true)
 				a++;
-			else
-				b++;
-					}
-		return (double)a/b;
+		}
+		
+		return (double)a/num;
 	}
 	
 	
